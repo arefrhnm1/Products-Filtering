@@ -1,0 +1,21 @@
+.product-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: rgb(100, 100, 100);
+    /* border-radius: 8px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); */
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .product-item h2 {
+    color: #fefefe;
+    font-size: 24px;
+  }
+  
+  .product-item span {
+    color: #dbdbdb;
+    font-size: 24px;
+  }

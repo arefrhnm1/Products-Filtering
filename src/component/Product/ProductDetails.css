@@ -1,0 +1,20 @@
+.product-item__price {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(237, 185, 87);
+  font-weight: bold;
+  border-radius: 8px;
+  padding: 8px 20px;
+  border: 1px solid #1c1c1c;
+}
+
+.product-item__price span:first-child {
+  font-size: 18px;
+  color: #000;
+}
+
+.product-item__price span:last-child {
+  font-size: 14px;
+  color: #000;
+}

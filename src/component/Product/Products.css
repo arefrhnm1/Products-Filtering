@@ -1,0 +1,14 @@
+.products {
+    background-color: rgb(37, 35, 35);
+    width: 60vw;
+    margin: 100px auto;
+    padding: 1rem;
+    /* border-radius: 8px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); */
+}
+
+@media(max-width: 768px) {
+    .products {
+        width: 90vw;
+    }
+}
