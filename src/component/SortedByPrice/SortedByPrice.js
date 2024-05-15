@@ -19,5 +19,3 @@ export default function SortedByPrice({ selectedPrice, setSelectedPrice }) {
     </div>
   );
 }
-
-// eror lens

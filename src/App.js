@@ -8,9 +8,6 @@ import SortedByPrice from './component/SortedByPrice/SortedByPrice';
 const App = () => {
   const [selectedTab, setSelectedTab] = useState("همه");
   const [selectedPrice, setSelectedPrice] = useState(null);
-  // function selectedTabHandler (category) {
-  //   setSelectedTab(category);
-  // }
   return (
     <>
       <Filter 
