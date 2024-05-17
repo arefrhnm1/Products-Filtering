@@ -1,0 +1,35 @@
+.search {
+    background-color: rgb(37, 35, 35);
+    display: flex;
+    width: 60vw;
+    margin: 100px auto -80px;
+    padding: 1rem;
+    display: flex;
+    gap: 10px;
+}
+.search input {
+    all: unset;
+    background-color: #efefef;
+    border-radius: 8px;
+    padding: 10px 5px;
+    width: 250px;
+    max-width: 100%;
+}
+.search button {
+    all: unset;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.searched {
+    all: unset;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.searched span {
+    color: red;
+    margin-right: 15px;
+}
